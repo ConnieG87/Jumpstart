@@ -46,8 +46,7 @@ h3 {
     padding-top: 10rem;
     text-align: center;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: no-repeat center;
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -117,4 +116,20 @@ img {
 
 .project {
     margin-bottom: 5.85rem;
+}
+
+.trouble {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 5.2rem 0;
+}
+
+strong {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.trouble p {
+    max-width: 42rem;
+    margin: 1.4rem auto;
 }
